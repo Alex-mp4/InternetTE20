@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Internet {
     public static void main(String[] args) throws IOException {
-        URL resource = new URL("https://raw.githubusercontent.com/MagnusSilverdal/InternetTE20/master/readme.md");
+        URL resource = new URL("https://raw.githubusercontent.com/Alex-mp4/gymnarb-11ty-fin/master/documentation.md?token=GHSAT0AAAAAAB5LKNUBKZ2LU5I63U3FKFMWY6SPQTQ");
         Scanner urlScanner = new Scanner(resource.openStream());
         while (urlScanner.hasNext()) {
             System.out.println(urlScanner.nextLine());
